@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="/css/app.css">
   </head>
   </body>
-    <body>
     @include('layouts._header')
 
     <div class="container">
