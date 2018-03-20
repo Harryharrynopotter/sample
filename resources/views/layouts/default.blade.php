@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title','sample') - Harry的个人项目</title>
     <link rel="stylesheet" href="/css/app.css">
+    <style>
+      nav{float:right!important; display: inline-block;}
+      .nav > li{display: inline-block;}
+      .jumbotron {margin-top: 8rem;}
+      .footer {bottom: 1rem; position: fixed;width: 80%;}
+    </style>
   </head>
   </body>
     @include('layouts._header')
